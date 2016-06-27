@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+	<title>Jvom</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<style>
+	.city {display:none;}
+	#London{
+		display:block;
+	}
+	</style>
+	<script type="text/javascript" src="js/script.js">
+	</script>
+	<body class="container">
+		<div class="header col-12">
+			<SPAN></SPAN>
+		</div>
+		<div class="col-12">
+			<ul class="navbar">
+				<li>
+				  	<a href="#" class="tablink white" onclick="openCity(event, 'London');">
+					  	<img src="img/Username.svg">
+					  	<div style="display:inline-block;">
+						  	<p>สัญญาเพิ่มเติมอุบัติเหตุ</p>
+						  	<p>0 รายการ - 0 บาท</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="#" class="tablink" onclick="openCity(event, 'Paris');">
+						<img src="img/Like_2.svg">
+						<div style="display:inline-block;">
+							<p>สัญญาเพิ่มเติมสุขภาพ</p>
+							<p>0 รายการ - 0 บาท</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="#" class="tablink" onclick="openCity(event, 'Tokyo');">
+						<img src="img/More_2.svg">
+						<div style="display:inline-block;">
+							<p>สัญญาเพิ่มเติมอื่นๆ</p>
+							<p>0 รายการ - 0 บาท</p>
+						</div>
+					</a>
+				</li>
+			</ul>
+
+			<div id="London" class="city">
+				<div class="f_modal col-12">
+					<div class="col-12" style="margin-top:20px;">
+						<div class="col-6">
+							<span class="f_modal_title">สัญญาเพิ่มเติม</span>
+						</div>
+						<div class="col-3">
+						    <span class="f_modal_title">ทุนประกันภัย (บาท)</span>
+						</div>
+						<div class="col-3">
+						    <span class="f_modal_title">เบี้ยประกันภัย (บาท/งวด)</span>
+						</div>
+					</div>
+					<hr style="display:inline-block;"/>
+					<div class="col-12" style="margin-top:10px;">
+						<div class="col-6">
+							<input id="r1" type="radio" name="group1" class="radio4" />
+							<label for="r1" class="f_modal_header">อุบัติเหตุคุ้มครอง ชีวิต อวัยวะ ทุพพลภาพ</label>
+						</div>
+						<div class="col-3">
+						    <input type="text" disabled value="0" class="disable"/>
+						</div>
+						<div class="col-3">
+						    <span class="price">0</span>
+						</div>
+					</div>
+					<div class="col-12" style="margin-top:10px;">
+						<div class="col-6">
+							<input id="r2" type="radio" name="group1" class="radio4" />
+							<label for="r2" class="f_modal_header">จลาจล สงครามกลางเมือง-เอไอ</label>
+						</div>
+						<div class="col-3">
+						    <input type="text" disabled value="0" class="disable" />
+						</div>
+						<div class="col-3">
+						    <span class="price">0</span>
+						</div>
+					</div>
+					<div class="col-12" style="margin-top:10px;">
+						<div class="col-6">
+							<input id="r3" type="radio" name="group1" class="radio4" />
+							<label for="r3" class="f_modal_header">อุบัติเหตุคุ้มครอง ชีวิต อวัยวะ</label>
+						</div>
+						<div class="col-3">
+						    <input type="text" disabled value="0" class="disable"/>
+						</div>
+						<div class="col-3">
+						    <span class="price">0</span>
+						</div>
+					</div>
+					<div class="col-12" style="margin-top:10px;">
+						<div class="col-6">
+							<input id="r4" type="radio" name="group1" class="radio4" />
+							<label for="r4" class="f_modal_header">จลาจล สงครามกลางเมือง-เอดีดี</span></div>
+						<div class="col-3">
+						    <input type="text" disabled value="0" class="disable"/>
+						</div>
+						<div class="col-3">
+						    <span class="price">0</span>
+						</div>
+					</div>
+					<div class="col-12" style="margin-top:10px;">
+						<div class="col-6">
+							<input id="r5" type="radio" name="group1" class="radio4" />
+							<label for="r5" class="f_modal_header">อุบัติเหตุคุ้มครอง ชีวิต</span></div>
+						<div class="col-3">
+						    <input type="text" disabled value="0" class="disable"/>
+						</div>
+						<div class="col-3">
+						    <span class="price">0</span>
+						</div>
+					</div>
+					<div class="col-12" style="margin-top:10px;">
+						<div class="col-6">
+							<input id="r6" type="radio" name="group1" class="radio4" />
+							<label for="r6" class="f_modal_header">จลาจล สงครามกลางเมือง-เอดีบี</span></div>
+						<div class="col-3">
+						    <input type="text" disabled value="0" class="disable"/>
+						</div>
+						<div class="col-3">
+						    <span class="price">0</span>
+						</div>
+					</div>
+				</div>
+				<div class="f_totalblock col-12">
+						<div class="f_totaltitle col-4">เบี้ยประกันรวมทั้งหมด</div>
+						<div class="f_total col-8"><span>0 บาท</span></div>
+				</div>
+				<div class="col-12">
+					<div class="btnfooter_cancel">ยกเลิกรายการ</div>
+					<div class="btnfooter_confirm">ยืนยันการเลือก(0 รายการ)</div>
+				</div>
+			</div>
+
+			<div id="Paris" class="city ">
+			  <h2>Paris</h2>
+			  <p>Paris is the capital of France.</p>
+			</div>
+
+			<div id="Tokyo" class="city">
+			  <h2>Tokyo</h2>
+			  <p>Tokyo is the capital of Japan.</p>
+			</div>
+		</div>
+	</body>
+</html>

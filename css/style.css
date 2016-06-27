@@ -1,0 +1,276 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+a{
+	text-decoration: none;
+
+}
+button a{
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+	padding-bottom: 5px;
+	padding: 5px;
+}
+[class*="col-"] {
+    float: left;
+    border: จpx solid transparent;
+}
+input[type='text']{
+	border-radius: 2px;
+	border: 1px solid #CCCCCC;
+	outline: none;
+	padding-left: 10px;
+}
+input[type='text'].disable{
+	background-color: #ccc;
+	color: black;
+	width: 70%;
+	padding: 10px;
+	text-align: right;
+	font-size: 22px;
+}
+input[type='text'].basic{
+	background-color: white;
+	width: 70%;
+	font-size: 16;
+	padding: 10px;
+}
+
+.btnfooter_confirm{
+	float: left;
+	height: 74px;
+	font-size: 22px;
+	font-weight: 500;
+	border:none;
+	background-color: #0096A9;
+	width: 50%;
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
+.btnfooter_cancel{
+	float: left;
+	height: 74px;
+	font-size: 22px;
+	font-weight: 500;
+	border:none;
+	background-color: #ccc;
+	width: 50%;
+	color: black;
+	text-align: center;
+	padding: 20px;
+}
+.price{
+	font-size: 22px;
+	float: right;
+	margin-top: 15px;
+	margin-right: 40px;
+	display: inline-block;
+}
+.container{
+	margin: 0;
+	max-width: 1024px;
+}
+hr{
+	width: 100%;
+}
+hr.inside{
+	display: inline-block;
+	width: 25%;
+	border: 1px solid #cccccc;
+	background-color: #CCCCCC; 
+}
+.big{
+	font-weight:500;
+	font-size: 16px;
+	margin-top: 5px;
+	display:inline-block;
+	margin-top: 3px;
+}
+.f_totalblock{
+	background-color: white;
+	color: black;
+	display:inline-block;
+	padding: 11px 15px;
+	border-top: 3px solid #D2D711;
+}
+.f_totaltitle{
+	width: 30%;
+	font-size: 22px;
+}
+.f_total{
+	text-align: right;width: 70%;
+	font-size: 22px
+}
+input[type=radio] {
+    display: none;
+}
+input[type=radio] + label::before {
+    content: '';
+    display: inline-block;
+    border: 1px solid #000;
+    border-radius: 50%;
+    margin: 0 0.5em;
+}
+input[type=radio]:checked + label::before {
+    background-color: #0096A9;
+}
+
+.radio4 + label::before {
+    width: 1.5em;
+    height: 1.5em;
+}
+.f_modal{
+	padding: 15px;
+	margin-bottom: 20px;
+}
+.f_modal_title{
+	font-size: 20px;
+}
+.f_modal_header{
+	font-size: 22px;
+}
+.modalblocktop{
+	margin-bottom:20px;
+	background-color: white;
+}
+.modalblockbot{
+	background-color: white;
+
+}
+.totalblock{
+	background-color: #5C5A5D;
+	color: white;
+	display:inline-block;
+	padding: 10px 15px;
+}
+.totaltitle{
+	width: 30%;
+}
+.total{
+	text-align: right;width: 70%;
+}
+button.addbtn{
+	background-color:#0096A9;
+	border:none;
+	margin: 120px 0px;
+}
+button.addbtn:before{
+	content: '\02b';
+	margin: 5px;
+	font-size: 30px;
+	font-weight: 500;
+	color: white;
+}
+button.dropdown {
+    background-color: white;
+    color: #0096A9;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    font-weight: 200;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    transition: 0.4s;
+}
+
+button.dropdown.active {
+    background-color: #ddd;
+}
+
+button.dropdown:after {
+    content: '\025BC';
+    font-size: 10px;
+    color: #0096A9;
+    float: right;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+button.dropdown.active:after {
+    content: "\25BC";
+}
+.modalmargin{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: inline-block; 
+}
+.swicth{
+	width: 10%;
+	float: left;
+}
+.head{
+	margin-left: 10px;
+}
+.modalheader{
+	color: #0096A9;
+	font-size: 14px;
+	font-weight: 500;
+	display: inline-block;
+	margin-top: 10px;
+}
+.modaldetail{
+	font-size: 16px;
+	font-weight: 200; 
+}.onoffswitch {
+    position: relative; width: 40px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    height: 20px; padding: 0; line-height: 20px;
+    border: 1px solid #CCCCCC; border-radius: 20px;
+    background-color: #FFFFFF;
+    transition: background-color 0.3s ease-in;
+}
+.onoffswitch-label:before {
+    content: "";
+    display: block; width: 20px; margin: 0px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 18px;
+    border: 1px solid #CCCCCC; border-radius: 20px;
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label {
+    background-color: #0096A9;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label, .onoffswitch-checkbox:checked + .onoffswitch-label:before {
+   border-color: #0096A9;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label:before {
+    right: 0px; 
+}
+.type{font-size: 14px;}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+.header{top: 0;left: 0;height: 84px;padding:10px;display:inline-block;background-color: #053d50;color: #fff;}
+.navbar{list-style-type:none;margin:0;padding:0;overflow:hidden}
+.navbar li{float:left;width: 33.33%;}.navbar li a{text-align: center;display:inline-block;padding:0px 16px;width: 100%;background-color: #ddd}.navbar li a:hover{color:black;background-color:white}.navbar li a:visited{color:black;}
+.navbar .dropdown-hover,.navbar .dropdown-click{position:relative;}
+.navbar .dropdown-hover:hover,.navbar .dropdown-hover:first-child,.navbar .dropdown-click:hover{background-color:#ccc;color:#000}
+.navbar a,.topnav a,.sidenav a,.dropdown-content a,.accordion-content a,.dropnav a{text-decoration:none!important}
+.sidebarfooter{border: 1px solid transparent;width: 35%;height: 74px;background-color: #ddd;float: left;}
+.sidebar{height: 610px;background-color: white;width: 35%;float: left;border: 1px solid transparent;}
+.modal{padding:10px;width: 65%;height: 610px;float: left;border: 1px solid transparent;background-color: #E6EAEB;color: #677583;}
+.modalfooter{border: 1px solid transparent;width: 65%;height: 74px;background-color: #fff;float: left;}
+.white{	background-color: white!important;}
+.card-4{box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)!important}
+.show{display:block!important}
