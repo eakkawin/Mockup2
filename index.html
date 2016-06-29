@@ -3,88 +3,190 @@
 	<title>Jvom</title>
 	<meta charset="UTF8"name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 	<script type="text/javascript" src="js/script.js"></script>
 	<body class="container">
-		<div class="header col-12">
-		</div>
+		<div class="header">
+			<img class="headerLogo" src="img/tokiomarine.png"/>
+	       	<div class="headerRight">
+	           <div class="headerTab" id="headerHome">HOME</div>
+	           <div class="headerTab" id="headerEQUOT">E_QUOTATION</div>
+	           <div class="headerTab" id="headerEAPP">E_APPLICATION</div>
+	           <div class="headerTab" id="headerLAN">| TH</div>
+	       </div>
+	    </div>
+	    <div class="topslidebar col-12" >
+	    	<h1 class="logo">E-QUOTATION</h1>
+	    	<hr class="logounderline"/>
+		    	<div class="detailblock">
+		    		<div class="infoBox first">
+			    		<div class="infoHead">
+			    			<span>ตัวแทนเสนอขาย</span>
+			    		</div>
+			    		<div class="info">
+			    			<span>0000AAAA นายจอห์น โด</span>
+			    		</div>
+			    	</div>
+			    	<div class="infoBox">
+			    		<div class="infoHead">
+			    			<span>ผู้เอาประกัน</span>
+			    		</div>
+			    		<div class="info">
+			    			<span><i class="fa fa-user" aria-hidden="true"></i> | อายุ 30 ปี | ชั้นที่ 1 ขับขี่มอเตอร์ไซค์รับจ้าง</span>
+			    		</div>
+			    	</div>
+		    	</div>
+	    </div>
 		<div class="col-12">
-			<div class="sidebar">
-				
-			</div>
 			<div class="modal">
-				<div class="col-12">
-					<div class="col-2">
-						<span class="big">งวดชำระเบี้ย</span>
-					</div>
-					<div class="col-2">
-						<button class="dropdown">รายปี</button>
-					</div>
-				</div>
-				<div class="col-12" style="text-align:right;padding-right:20px;margin-bottom: 5px;">
-					<div class="col-9">
-					    <span class="type">ทุนประกันภัย (บาท)</span>
-					</div>
-					<div class="col-3">
-					    <span class="type">เบี้ยประกันภัย (บาท/งวด)</span>
-					</div>
-				</div>
-
-				<div class="modalblocktop col-12">
-					<div class="modalmargin col-12">
-						<div class="col-6">
-						    <span class="modalheader head">WLP4 กรมธรรม์ประกันภับแบบโฮล ไลฟ์พลัส 20 ปี</span>
-						</div>
-						<div class="col-3" style="text-align:right;padding-right:20px;">
-						    <input type="text" class="basic"/>
-						</div>
-						<div class="col-3" style="text-align:right;padding-right:20px;">
-						    <input type="text" class="basic"/>
-						</div>
-					</div>
-					<div class="modalmargin col-12">
-						<div class="swicth">
-							<div class="onoffswitch head">
-							    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch">
-							    <label class="onoffswitch-label" for="myonoffswitch"></label>
+				<ul class="navbar">
+					<li class="tabblock">
+					  	<a href="#" class="tablink" onclick="openCity(event, 'a');">	
+						  	<img src="img/Username.svg" class="tablogo"/>
+							<div class="tab">
+								<p>ข้อมูลผู้เอาประกันภัย</p>
+							</div>
+						</a>
+					</li>
+					<li class="tabblock">
+					  	<a href="#" class="tablink" onclick="openCity(event, 'b');">	
+						  	<img src="img/Username.svg" class="tablogo"/>
+							<div class="tab">
+								<p>เลือกแบบประกัน</p>
+							</div>
+						</a>
+					</li>
+					<li class="tabblock">
+					  	<a href="#" class="tablink color" onclick="openCity(event, 'c');">
+						  	<img src="img/Username.svg" class="tablogo"/>
+							<div class="tab">
+								<p>จัดการแบบประกัน</p>
+							</div>
+						</a>
+					</li>
+					<li class="tabblock tabblocklast">
+					  	<a href="#" class="tablink" onclick="openCity(event, 'd');">	
+						  	<img src="img/Username.svg" class="tablogo"/>
+							<div class="tab">
+								<p>สรุปทุน/เบี้ยประกัน</p>
+							</div>
+						</a>
+					</li>
+				</ul>
+				<div id="a" class="city"></div>
+				<div id="b" class="city"></div>
+				<div id="c" class="city">
+					<div class="block col-12">
+						<div class="col-12">
+							<div class="col-2">
+								<span class="big">งวดชำระเบี้ย</span>
+							</div>
+							<div class="col-4">
+								<button class="dropdown" style="text-align:left;">รายปี</button>
 							</div>
 						</div>
-						<div class="col-10">
-							<span class="modaldetail">เลือกซื้อคู่กับ โซลูชั่น ดีไซน์</span>
+						<div class="col-12" style="text-align:right;padding-right:20px;margin-bottom: 5px;">
+							<div class="col-9">
+							    <span class="type">ทุนประกันภัย (บาท)</span>
+							</div>
+							<div class="col-3">
+							    <span class="type">เบี้ยประกันภัย (บาท/งวด)</span>
+							</div>
 						</div>
-					</div>
-					<div class="modalmargin col-12">
-						<div class="col-6">
-							<span class="modaldetail head" style="display:inline-block;margin-top:5px;">ประกันภัยอุบัติเหตุส่วนบุคคล</span>
-						</div>
-						<div class="col-6">
-							<button class="dropdown"><hr class="inside"/><span style="margin:9px;color:#cccccc;">เลือกแบบประกันภัย</span><hr class="inside"/></button>
-						</div>
-					</div>
-				</div>
-				<div class="col-12" style="margin-bottom: 5px;">
-					<div class="col-2">
-						<span class="big">สัญญาเพิ่มเติม</span>
-					</div>
-				</div>
-				<div class="modalblockbot col-12">
-					<div class="col-12" style="text-align:center;">
-						<div class="col-12">
-							<button class="addbtn">
-								<a href="modal.html">เลือกสัญญาเพิ่มเติม</a>
-							</button>
-						</div>
-					</div>
-					<div class="totalblock col-12">
-						<div class="totaltitle col-4">เบี้ยประกันรวมทั้งหมด</div>
-						<div class="total col-8"><span>0 บาท</span></div>
-					</div>
-				</div>
 
+						<div class="modalblocktop col-12">
+							<div class="modalmargin col-12">
+								<div class="col-6">
+								    <span class="modalheader head">WLP4 กรมธรรม์ประกันภับแบบโฮล ไลฟ์พลัส 20 ปี</span>
+								</div>
+								<div class="col-3" style="text-align:right;padding-right:20px;">
+								    <input type="text" class="basic"/>
+								</div>
+								<div class="col-3" style="text-align:right;padding-right:20px;">
+								    <input type="text" class="basic"/>
+								</div>
+							</div>
+							<div class="modalmargin col-12">
+								<div class="swicth">
+									<div class="onoffswitch head">
+									    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch">
+									    <label class="onoffswitch-label" for="myonoffswitch"></label>
+									</div>
+								</div>
+								<div class="col-10">
+									<span class="modaldetail">เลือกซื้อคู่กับ โซลูชั่น ดีไซน์</span>
+								</div>
+							</div>
+						</div>
+						<div class="modalblockmid col-12">
+							<div class="modalmargin col-12">
+								<div class="col-6">
+									<span class="modaldetail head">ประกันภัยอุบัติเหตุส่วนบุคคล</span>
+								</div>
+								<div class="col-6">
+									<button class="dropdown"><hr class="inside"/><span style="margin:9px;color:#cccccc;">เลือกแบบประกันภัย</span><hr class="inside"/></button>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="col-12" style="margin-bottom: 5px;">
+							<div class="col-2">
+								<span class="big">สัญญาเพิ่มเติม</span>
+							</div>
+						</div>
+						<div class="modalblockbot col-12">
+							<div class="col-12" style="text-align:center;">
+								<div class="col-12">
+									<button class="addbtn">
+										<a href="modal.html">เลือกสัญญาเพิ่มเติม</a>
+									</button>
+								</div>
+							</div>
+							<div class="totalblock col-12">
+								<div class="totaltitle col-4">เบี้ยประกันรวม</div>
+								<div class="total col-8"><span>0 บาท</span></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="d" class="city col-12"></div>
+			</div>
+			<div class="footer">
+				<div class="footerLeft">2016 Tokiomarine Insurance Group. All rigths reserved.</div>
+				<div class="footerCenter">
+				    <img src="img/Tokio_Marine_logo.png" class="footerlogo"/>
+				</div>
+			    <div class="footerRight">
+				    <i class="fa fa-facebook-square sociallink"></i>
+			        <i class="fa fa-twitter sociallink" ></i>
+			        <i class="fa fa-google-plus sociallink" ></i>
+		        </div>
 			</div>
 		</div>
-		<div class="col-12">
-			<div class="sidebarfooter"></div>
-			<div class="modalfooter"></div>
-		</div>
+		
 	</body>
+	<script type="text/javascript">
+			
+		var headerHome = document.getElementById('headerHome');
+		var headerEQUOT = document.getElementById('headerEQUOT');
+		var headerEAPP = document.getElementById('headerEAPP');
+		var headerLAN = document.getElementById('headerLAN');
+		headerEQUOT.classList.add("headerActive");
+		headerHome.onclick = function(){
+		    headerHome.classList.add("headerActive");
+		    headerEQUOT.classList.remove("headerActive");
+		    headerEAPP.classList.remove("headerActive");
+		}    
+		headerEQUOT.onclick = function(){
+		    headerHome.classList.remove("headerActive");
+		    headerEQUOT.classList.add("headerActive");
+		    headerEAPP.classList.remove("headerActive");
+		}    
+		headerEAPP.onclick = function(){
+		    headerHome.classList.remove("headerActive");
+		    headerEQUOT.classList.remove("headerActive");
+		    headerEAPP.classList.add("headerActive");
+		}
+	</script>
 </html>

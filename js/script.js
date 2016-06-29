@@ -6,6 +6,7 @@ function myFunction() {
         x.className = x.className.replace(" show", "");
     }
 }
+
 function openCity(evt, cityName) {
 	var i, x, tablinks;
 	x = document.getElementsByClassName("city");
@@ -14,8 +15,8 @@ function openCity(evt, cityName) {
 	}
 	tablinks = document.getElementsByClassName("tablink");
 	for (i = 0; i < x.length; i++) {
-	    tablinks[i].className = tablinks[i].className.replace(" white", "");
+	    tablinks[i].className = tablinks[i].className.replace(" color", "");
 	}
 	document.getElementById(cityName).style.display = "block";
-	evt.currentTarget.className += " white";
+	evt.currentTarget.className += " color";
 }
