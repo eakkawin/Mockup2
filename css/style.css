@@ -495,7 +495,7 @@ a{text-decoration: none;}
 hr{width: 100%;}
 hr.logounderline{display: block;width: 50%;text-align: center;background-color: black;border:1px solid black;}
 hr.inside{display: inline-block;border: 1px solid #cccccc;background-color: #CCCCCC;width: 20%;}
-[class*="col-"]{float: left;border: 0px solid red;}
+[class*="col-"]{float: left;border: 0px solid transparent;}
 button a{text-decoration: none;color: white;}
 button.addbtn{background-color:#0096A9;border:none;margin: 120px 0px;}
 button.addbtn:before{content: '\02b';color: white;}
