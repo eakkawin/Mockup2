@@ -1,0 +1,605 @@
+
+@media screen and (max-width:820px){
+	html,body{
+		width: 820px!important;
+	}
+	p{
+		font-size: 0.8em;
+		margin-top: 10px;
+	}
+	button a{
+		font-size: 1.5em;
+		padding: 5px;
+	}
+	input[type='text']{
+		padding-left: 10px;
+	}
+	input[type='text'].disable{
+		padding: 10px;
+		font-size: 0.9em;
+	}
+	input[type='text'].basic{
+		font-size: 1em;
+		padding: 5px;
+		margin-top: 5px;
+	}
+	.swicth{
+		width: 60px;
+		float: left;
+	}
+	.header{
+		width: 820px;
+	}
+	.footer{
+		width: :820px;
+	}
+	.btnfooter_confirm{
+		height: 50px;
+		font-size: 1em;
+		font-weight: 500;
+		padding: 12px;
+	}
+	.info{
+		padding-left: 10px;
+		font-size: 0.7em;
+	}
+	.infoHead{
+		font-size: 0.7em;
+	}
+	.btnfooter_cancel{
+		height: 50px;
+		font-size: 1em;
+		font-weight: 500;
+		padding: 12px;
+	}
+	.price{
+		font-size: 1em;
+		margin-top: 15px;
+		margin-right: 40px;
+	}
+	.big{
+		font-weight:500;
+		font-size: 1em;
+		margin-top: 5px;
+	}
+	.totaltitle{
+		font-size: 0.9em;
+	}
+	.f_totalblock{
+		padding: 11px 15px;
+	}
+	.f_totaltitle{
+		font-size: 1em;
+	}
+	.f_total{
+		font-size: 1em;
+	}
+	.f_modal{
+		margin-bottom: 20px;
+	}
+	.f_modal_title{
+		font-size: 0.9em;
+	}
+	.f_modal_header{
+		font-size: 0.9em;
+	}
+	.modalblocktop{
+		padding:10px;
+	}
+	.modalblockmid{
+		padding:10px;
+		margin-bottom: 20px;
+		margin-top: 2px;
+	}
+	.totalblock{
+		padding: 10px 15px;
+	}
+	.block{
+		padding: 30px 50px;
+	}
+	.modalmargin{
+		display: inline-block; 
+	}
+	.head{
+		margin-left: 10px;
+		margin-top: 10px; 
+	}
+	.modalheader{
+		font-size: 0.8em;
+		font-weight: 500;
+		margin-top: 10px;
+	}
+	.modaldetail{
+		font-size: 0.8em;
+		font-weight: 200;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.radio4 + label::before {
+	    width: 1.5em;
+	    height: 1.5em;
+	}
+	.type{
+		margin-right: 30px;
+		font-size: 0.7em;
+	}
+	.onoffswitch {
+		width: 40px;
+	}
+	.onoffswitch-label {
+		height: 20px; 
+		padding: 0; 
+		line-height: 20px;
+	}
+	.onoffswitch-label:before {
+		width: 20px;
+		margin: 0px;
+		content: "";
+		right: 18px;
+		border-radius: 20px;
+	}
+	.block{
+
+	}
+	button a{
+		font-size: 1.4em;
+	}
+	button.addbtn{
+		padding: 10px;
+	}
+
+	button.addbtn:before{
+		margin: 5px;
+		font-size: 2em;
+		font-weight: 500;
+	}
+	button.dropdown {
+	    font-size: 0.9em;
+	    font-weight: 200;
+	    padding: 5px;
+	}
+	button.dropdown:after {
+	    font-size: 0.8em;
+	    margin-left: 5px;
+	    margin-top: 5px;
+	}
+}
+@media screen and (max-width:1024px){
+	p{
+		font-size: 0.8em;
+		margin-top: 10px;
+	}
+	button a{
+		font-size: 1.5em;
+		padding: 5px;
+	}
+	input[type='text']{
+		padding-left: 10px;
+	}
+	input[type='text'].disable{
+		padding: 10px;
+		font-size: 0.9em;
+	}
+	input[type='text'].basic{
+		font-size: 1em;
+		padding: 5px;
+		margin-top: 5px;
+	}
+	.swicth{
+		width: 60px;
+		float: left;
+	}
+	.header{
+		width: 820px;
+	}
+	.footer{
+		width: :820px;
+	}
+	.btnfooter_confirm{
+		height: 50px;
+		font-size: 1em;
+		font-weight: 500;
+		padding: 12px;
+	}
+	.info{
+		padding-left: 10px;
+		font-size: 0.7em;
+	}
+	.infoHead{
+		font-size: 0.7em;
+	}
+	.btnfooter_cancel{
+		height: 50px;
+		font-size: 1em;
+		font-weight: 500;
+		padding: 12px;
+	}
+	.price{
+		font-size: 1em;
+		margin-top: 15px;
+		margin-right: 40px;
+	}
+	.big{
+		font-weight:500;
+		font-size: 1em;
+		margin-top: 5px;
+	}
+	.totaltitle{
+		font-size: 0.9em;
+	}
+	.f_totalblock{
+		padding: 11px 15px;
+	}
+	.f_totaltitle{
+		font-size: 1em;
+	}
+	.f_total{
+		font-size: 1em;
+	}
+	.f_modal{
+		margin-bottom: 20px;
+	}
+	.f_modal_title{
+		font-size: 0.9em;
+	}
+	.f_modal_header{
+		font-size: 0.9em;
+	}
+	.modalblocktop{
+		padding:10px;
+	}
+	.modalblockmid{
+		padding:10px;
+		margin-bottom: 20px;
+		margin-top: 2px;
+	}
+	.totalblock{
+		padding: 10px 15px;
+	}
+	.block{
+		padding: 30px 50px;
+	}
+	.modalmargin{
+		display: inline-block; 
+	}
+	.head{
+		margin-left: 10px;
+		margin-top: 10px; 
+	}
+	.modalheader{
+		font-size: 0.8em;
+		font-weight: 500;
+		margin-top: 10px;
+	}
+	.modaldetail{
+		font-size: 0.8em;
+		font-weight: 200;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.radio4 + label::before {
+	    width: 1.5em;
+	    height: 1.5em;
+	}
+	.type{
+		margin-right: 30px;
+		font-size: 0.7em;
+	}
+	.onoffswitch {
+		width: 40px;
+	}
+	.onoffswitch-label {
+		height: 20px; 
+		padding: 0; 
+		line-height: 20px;
+	}
+	.onoffswitch-label:before {
+		width: 20px;
+		margin: 0px;
+		content: "";
+		right: 18px;
+		border-radius: 20px;
+	}
+	.block{
+
+	}
+	button a{
+		font-size: 1.4em;
+	}
+	button.addbtn{
+		padding: 10px;
+	}
+
+	button.addbtn:before{
+		margin: 5px;
+		font-size: 2em;
+		font-weight: 500;
+	}
+	button.dropdown {
+	    font-size: 0.9em;
+	    font-weight: 200;
+	    padding: 5px;
+	}
+	button.dropdown:after {
+	    font-size: 0.8em;
+	    margin-left: 5px;
+	    margin-top: 5px;
+	}
+}
+@media screen and (max-width:1440px){
+	p{
+		font-size: 0.8em;
+		margin-top: 10px;
+	}
+	button a{
+		font-size: 1.5em;
+		padding: 5px;
+	}
+	input[type='text']{
+		padding-left: 10px;
+	}
+	input[type='text'].disable{
+		padding: 10px;
+		font-size: 0.9em;
+	}
+	input[type='text'].basic{
+		font-size: 1em;
+		padding: 5px;
+		margin-top: 5px;
+	}
+	.swicth{
+		width: 60px;
+		float: left;
+	}
+	.header{
+		width: 820px;
+	}
+	.footer{
+		width: :820px;
+	}
+	.btnfooter_confirm{
+		height: 50px;
+		font-size: 1em;
+		font-weight: 500;
+		padding: 12px;
+	}
+	.info{
+		padding-left: 10px;
+		font-size: 0.7em;
+	}
+	.infoHead{
+		font-size: 0.7em;
+	}
+	.btnfooter_cancel{
+		height: 50px;
+		font-size: 1em;
+		font-weight: 500;
+		padding: 12px;
+	}
+	.price{
+		font-size: 1em;
+		margin-top: 15px;
+		margin-right: 40px;
+	}
+	.big{
+		font-weight:500;
+		font-size: 1em;
+		margin-top: 5px;
+	}
+	.totaltitle{
+		font-size: 0.9em;
+	}
+	.f_totalblock{
+		padding: 11px 15px;
+	}
+	.f_totaltitle{
+		font-size: 1em;
+	}
+	.f_total{
+		font-size: 1em;
+	}
+	.f_modal{
+		margin-bottom: 20px;
+	}
+	.f_modal_title{
+		font-size: 0.9em;
+	}
+	.f_modal_header{
+		font-size: 0.9em;
+	}
+	.modalblocktop{
+		padding:10px;
+	}
+	.modalblockmid{
+		padding:10px;
+		margin-bottom: 20px;
+		margin-top: 2px;
+	}
+	.totalblock{
+		padding: 10px 15px;
+	}
+	.block{
+		padding: 30px 50px;
+	}
+	.modalmargin{
+		display: inline-block; 
+	}
+	.head{
+		margin-left: 10px;
+		margin-top: 10px; 
+	}
+	.modalheader{
+		font-size: 0.8em;
+		font-weight: 500;
+		margin-top: 10px;
+	}
+	.modaldetail{
+		font-size: 0.8em;
+		font-weight: 200;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.radio4 + label::before {
+	    width: 1.5em;
+	    height: 1.5em;
+	}
+	.type{
+		margin-right: 30px;
+		font-size: 0.7em;
+	}
+	.onoffswitch {
+		width: 40px;
+	}
+	.onoffswitch-label {
+		height: 20px; 
+		padding: 0; 
+		line-height: 20px;
+	}
+	.onoffswitch-label:before {
+		width: 20px;
+		margin: 0px;
+		content: "";
+		right: 18px;
+		border-radius: 20px;
+	}
+	.block{
+
+	}
+	button a{
+		font-size: 1.4em;
+	}
+	button.addbtn{
+		padding: 10px;
+	}
+
+	button.addbtn:before{
+		margin: 5px;
+		font-size: 2em;
+		font-weight: 500;
+	}
+	button.dropdown {
+	    font-size: 0.9em;
+	    font-weight: 200;
+	    padding: 5px;
+	}
+	button.dropdown:after {
+	    font-size: 0.8em;
+	    margin-left: 5px;
+	    margin-top: 5px;
+	}
+}
+/*Global CSS*/
+* {box-sizing: border-box;font-family: sans-serif;}
+body{background-color: #E6EAEB}
+a{text-decoration: none;}
+hr{width: 100%;}
+hr.logounderline{display: block;width: 50%;text-align: center;background-color: black;border:1px solid black;}
+hr.inside{display: inline-block;border: 1px solid #cccccc;background-color: #CCCCCC;width: 20%;}
+[class*="col-"]{float: left;border: 0px solid red;}
+button a{text-decoration: none;color: white;}
+button.addbtn{background-color:#0096A9;border:none;margin: 120px 0px;}
+button.addbtn:before{content: '\02b';color: white;}
+button.dropdown {background-color: white;color: #0096A9;cursor: pointer;width: 95%;text-align: center;outline: none;border: 1px solid #CCCCCC;border-radius: 3px;transition: 0.4s;}
+button.dropdown.active {background-color: #ddd;}
+button.dropdown:after {content: '\025BC';color: #0096A9;float: right;}
+input[type='text']{border-radius: 2px;border: 1px solid #CCCCCC;outline: none;}
+input[type='text'].disable{width: 70%;background-color: #ccc;color: black;text-align: right;}
+input[type='text'].basic{width: 90%;background-color: white;}
+input[type=radio] {display: none;}
+input[type=radio] + label::before {margin: 0 0.5em;content: '\2713';display: inline-block;border: 1px solid #ccc;border-radius: 50%;color: white;}
+input[type=radio]:checked + label::before {background-color: #0096A9;}
+.fa-file:before{font-size: 35px;}
+.jobline{width: 10%;border-bottom: 1px solid black;padding-bottom: 5px;margin-bottom: 10px}
+.jobsicon{float: left;display: block;padding-left: 7%;margin-right: 10px;}
+.jobhead{font-size: 1.5em;font-weight: 100;float: left;}
+.jobblock{margin-left: 10%;display: inline-block;width: 80%;margin-bottom: 5%;}
+.jobbtn{border-radius: 5px;padding: 5px; background-color: white;border:1px solid #ccc;}
+.jobsearch{color: #AEAEAE;padding: 5px;}
+.jobbtnspan{color: #E3E3E3;font-weight: lighter;font-size: 0.9em;}
+.jobbox{border-radius: 1px;background-color: white;border:1px solid #ccc;}
+.jobchild{padding: 10px;}
+.jobheader{color: #AEAEAE;font-weight: 100;font-size: 0.9em;display: inline-block;padding-left:5px;line-height: 23px}
+.jobheader2{padding-left: 60px;font-size: 1em}
+.jobpage{background-color: #E3E3E3;border-radius: 5px;border:none;display: inline-block;;}
+.jobtitle{background-color:#E3E3E3;color: #012B39;padding: 10px;}
+.joblistbox{padding: 5px 10px;}
+.jobfirstchild{text-align: center;line-height: 22px;}
+.joblist{border:1px solid #ccc;margin-bottom: 1px;display: inline-block;width: 100%;}
+.infoHead{float:left;text-align: center;background-color: #B3B3B3;padding: 5px;color: white;border:1px solid #B3B3B3;width: 30%;font-weight: 100;display: inline-block;margin-left: 0;}
+.info{float:left;background-color: white;padding:5px;border:1px solid #B3B3B3;color:#0096A9;width: 70%;display: inline-block;text-align: left;}
+.infoBox{width: 49%;display: inline-block;}
+.first{margin-right: 1%;}
+.detailblock{text-align: center;position: relative;width: 90%;margin: auto;margin-top: 20px;}
+.logo{display: block;text-align: center;color: #012B39;}
+.btn_block{display: inline-block;width: 70%;}
+.btn_box{text-align: center;position: relative;width: 100%;margin: auto;margin-bottom: 200px}
+.btn{padding: 20px 10px;width: 35%;display: inline-block;float:left;border:none;background-color: #0096A9;color: white;text-align: center;}
+.btn_space{margin-right: 30%;}
+.price{float: right;display: inline-block;}
+.big{display:inline-block;}
+.block2{background-color: #F7F7F7;margin-bottom: 200px;}
+.block{background-color: #F7F7F7;margin-bottom: 20px;}
+.onoffswitch {position: relative;-webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;}
+.onoffswitch-checkbox {display: none;}
+.onoffswitch-label {display: block; overflow: hidden; cursor: pointer;border: 1px solid #CCCCCC; border-radius: 20px;background-color: #FFFFFF;transition: background-color 0.3s ease-in;}
+.onoffswitch-label:before {content: "";display: block;margin: 0px;background: #FFFFFF;position: absolute; top: 0; bottom: 0;border: 1px solid #CCCCCC; border-radius: 20px;transition: all 0.3s ease-in 0s; }
+.f_block{background-color: white;padding: 0px 20px;}
+.f_modal_header{color: black;}
+.f_modal_title{color: black;}
+.f_totalblock{background-color: #5C5A5D;color: white;display:inline-block;margin-bottom: 40px;}
+.f_totaltitle{width: 30%;}
+.f_total{text-align: right;width: 70%;}
+.totaltitle{width: 30%;}
+.total{text-align: right;width: 70%;}
+.totalblock{background-color: #5C5A5D;color: white;display:inline-block;}
+.modalblocktop{background-color: white;}
+.modalblockmid{background-color: white;}
+.modalblockbot{background-color: white;}
+.modalmargin{display: inline-block;}
+.modalheader{color: #0096A9;display: inline-block;}
+.modaldetail{display: inline-block;}
+.container{margin: 0;width: 100%;}
+.headerTab{font-size: 0.7em;cursor: pointer;outline: none;padding: 27px 15px;display: inline-block;}
+.headerActive{color:#6e895b;border-bottom: 4px solid #3C7E89;}
+.headerRight{font-weight: 100;display:inline-block;position: relative;color:white;font-size: 20px;float:right;margin-right:  20px;}
+.headerLogo{left:40px;display: inline-block;position: absolute;width: 200px;}
+.topslidebar{margin-bottom:20px;background-color: #F7F7F7;padding-bottom: 20px;}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+.tabblock2{width:32%;margin-right: 2%;float: left;}
+.tabblock{margin-right:2%;width: 23.5%;float: left;}
+.tabblocklast{margin: 0};
+.tab{display: inline-block;margin-top: 10px;float: left; }
+.tablogo{width: 13%;display: inline-block; float: left;margin-top: 10px;}
+.header{display:inline-block;left:0px;top:0px;height:74px;width:100%;background:#032a39 ;}
+.onoffswitch-checkbox:checked + .onoffswitch-label {background-color: #7bff7b;}
+.onoffswitch-checkbox:checked + .onoffswitch-label, .onoffswitch-checkbox:checked + .onoffswitch-label:before {border-color: #7bff7b;}
+.onoffswitch-checkbox:checked + .onoffswitch-label:before {right: 0px; }
+.card-4{box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)!important}
+.show{display:block!important}
+.color{background-color: #0096A9!important;}
+.navbar{border-bottom:10px solid #0096A9;list-style-type:none;margin:0;padding:0;overflow:hidden;width: 100%}
+.navbar li{float:left;}.navbar li a{text-align: center;display:inline-block;padding:0px 16px;width: 100%;background-color: white}.navbar li a:hover{color:black;background-color:#0096A9}.navbar li a:visited{color:black;}
+.navbar .dropdown-hover,.navbar .dropdown-click{position:relative;}
+.navbar .dropdown-hover:hover,.navbar .dropdown-hover:first-child,.navbar .dropdown-click:hover{background-color:#ccc;color:#000}
+.navbar a,.topnav a,.sidenav a,.dropdown-content a,.accordion-content a,.dropnav a{text-decoration:none!important}
+.sidebarfooter{border: 1px solid transparent;width: 35%;height: 74px;background-color: #ddd;float: left;}
+.sidebar{height: 610px;background-color: white;width: 35%;float: left;border: 1px solid transparent;}
+.modal{margin:auto;width: 90%;border: 1px solid transparent;background-color: #E6EAEB;color: #677583;}
+.modalfooter{border: 1px solid transparent;width: 65%;height: 74px;background-color: #fff;float: left;}
+.footer{position:relative;display: inline-block;left:0px;bottom:0px;height:74px;width:100%;background:#032a39 ;}
+.footerLeft{position: absolute;display: inline-block;margin-top:30px;margin-left: 30px;color:white;font-size: 0.8em;}
+.footerRight{position: absolute;right:25px;top:20px;}
+.footerCenter{position: relative;text-align: center;margin-top: 20px;}
+.footerlogo{width:50px; height:35px; vertical-align: text-top; margin:auto;}
+.sociallink{font-size:30px!important; color:#778b96 ; margin-right:30px;}

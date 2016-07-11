@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+	<title>Jvom</title>
+	<meta charset="UTF8"name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+	<script type="text/javascript" src="js/script.js"></script>
+	<body class="container">
+		<div class="header">
+			<img class="headerLogo" src="img/tokiomarine.png"/>
+	       	<div class="headerRight">
+	           <div class="headerTab" id="headerHome">HOME</div>
+	           <div class="headerTab" id="headerEQUOT">E_QUOTATION</div>
+	           <div class="headerTab" id="headerEAPP">E_APPLICATION</div>
+	           <div class="headerTab" id="headerLAN">| TH</div>
+	       </div>
+	    </div>
+	    <div class="topslidebar col-12" >
+	    	<h1 class="logo">E-QUOTATION</h1>
+	    	<hr class="logounderline"/>
+		    	<div class="detailblock">
+		    		<div class="infoBox first">
+			    		<div class="infoHead">
+			    			<span>ตัวแทนเสนอขาย</span>
+			    		</div>
+			    		<div class="info">
+			    			<span>0000AAAA นายจอห์น โด</span>
+			    		</div>
+			    	</div>
+			    	<div class="infoBox">
+			    		<div class="infoHead">
+			    			<span>ผู้เอาประกัน</span>
+			    		</div>
+			    		<div class="info">
+			    			<span><i class="fa fa-user" aria-hidden="true"></i> | อายุ 30 ปี | ชั้นที่ 1 ขับขี่มอเตอร์ไซค์รับจ้าง</span>
+			    		</div>
+			    	</div>
+		    	</div>
+	    </div>
+		<div class="col-12">
+			<div class="modal">
+				<ul class="navbar">
+					<li class="tabblock2">
+					  	<a href="#" class="tablink color" onclick="openCity(event, 'a');">
+						  	<img src="img/Username.svg">
+						  	<div style="display:inline-block;">
+							  	<p>สัญญาเพิ่มเติมอุบัติเหตุ</p>
+							  	<p>0 รายการ - 0 บาท</p>
+							</div>
+						</a>
+					</li>
+					<li class="tabblock2">
+						<a href="#" class="tablink" onclick="openCity(event, 'b');">
+							<img src="img/Like_2.svg">
+							<div style="display:inline-block;">
+								<p>สัญญาเพิ่มเติมสุขภาพ</p>
+								<p>0 รายการ - 0 บาท</p>
+							</div>
+						</a>
+					</li>
+					<li class="tabblock2 tabblocklast">
+						<a href="#" class="tablink" onclick="openCity(event, 'c');">
+							<img src="img/More_2.svg">
+							<div style="display:inline-block;">
+								<p>สัญญาเพิ่มเติมอื่นๆ</p>
+								<p>0 รายการ - 0 บาท</p>
+							</div>
+						</a>
+					</li>
+				</ul>
+				<div id="a" class="city">
+					<div class="f_block col-12">
+						<div class="f_modal col-12">
+							<div class="col-12" style="margin-top:20px;">
+								<div class="col-6">
+									<span class="f_modal_title">สัญญาเพิ่มเติม</span>
+								</div>
+								<div class="col-3">
+								    <span class="f_modal_title">ทุนประกันภัย (บาท)</span>
+								</div>
+								<div class="col-3">
+									<span class="f_modal_title">เบี้ยประกันภัย (บาท/งวด)</span>
+								</div>
+								</div>
+								<hr style="display:inline-block;"/>
+								<div class="col-12" style="margin-top:10px;">
+									<div class="col-6">
+										<input id="r1" type="radio" name="group1" class="radio4" />
+										<label for="r1" class="f_modal_header">อุบัติเหตุคุ้มครอง ชีวิต อวัยวะ ทุพพลภาพ</label>
+									</div>
+									<div class="col-3">
+									    <input type="text" disabled value="0" class="disable"/>
+									</div>
+									<div class="col-3">
+									    <span class="price">0</span>
+									</div>
+								</div>
+								<div class="col-12" style="margin-top:10px;">
+									<div class="col-6">
+										<input id="r2" type="radio" name="group1" class="radio4" />
+										<label for="r2" class="f_modal_header">จลาจล สงครามกลางเมือง-เอไอ</label>
+									</div>
+									<div class="col-3">
+										<input type="text" disabled value="0" class="disable" />
+									</div>
+									<div class="col-3">
+									    <span class="price">0</span>
+									</div>
+								</div>
+								<div class="col-12" style="margin-top:10px;">
+									<div class="col-6">
+										<input id="r3" type="radio" name="group1" class="radio4" />
+										<label for="r3" class="f_modal_header">อุบัติเหตุคุ้มครอง ชีวิต อวัยวะ</label>
+									</div>
+									<div class="col-3">
+									    <input type="text" disabled value="0" class="disable"/>
+									</div>
+									<div class="col-3">
+									    <span class="price">0</span>
+									</div>
+								</div>
+								<div class="col-12" style="margin-top:10px;">
+									<div class="col-6">
+										<input id="r4" type="radio" name="group1" class="radio4" />
+										<label for="r4" class="f_modal_header">จลาจล สงครามกลางเมือง-เอดีดี</span>
+									</div>
+									<div class="col-3">
+									    <input type="text" disabled value="0" class="disable"/>
+									</div>
+									<div class="col-3">
+									    <span class="price">0</span>
+									</div>
+								</div>
+								<div class="col-12" style="margin-top:10px;">
+									<div class="col-6">
+										<input id="r5" type="radio" name="group1" class="radio4" />
+										<label for="r5" class="f_modal_header">อุบัติเหตุคุ้มครอง ชีวิต</span>
+									</div>
+									<div class="col-3">
+									    <input type="text" disabled value="0" class="disable"/>
+									</div>
+									<div class="col-3">
+									    <span class="price">0</span>
+									</div>
+								</div>
+								<div class="col-12" style="margin-top:10px;">
+									<div class="col-6">
+										<input id="r6" type="radio" name="group1" class="radio4">
+										<label for="r6" class="f_modal_header">จลาจล สงครามกลางเมือง-เอดีบี</span>
+									</div>
+									<div class="col-3">
+										<input type="text" disabled value="0" class="disable"/>
+									</div>
+									<div class="col-3">
+									    <span class="price">0</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<i class="fa fa-file jobsicon"></i>
+						<div class='col-1 jobline'>
+							<span class='jobhead'>อาชีพ</span>
+						</div>
+						<div class='jobblock'>
+							
+							<div class='jobbtn col-12'>
+								<i class="fa fa-search jobsearch"></i>
+								<span class='jobbtnspan'> เลือกอาชีพ</span>
+							</div>
+							<div class='jobbox col-12'>
+								<div class='jobchild col-12'>
+									<div class='col-5'>
+										<input id="r7" type="radio" name="group1" class="radio4">
+										<label for="r7" class="jobheader">เลือกอาชีพและขั้นอาชีพ</span>
+										<input id="r8" type="radio" name="group1" class="radio4">
+										<label for="r8" class="jobheader jobheader2">เลือกอาชีพ</span>
+									</div>
+									<div class='col-7'>
+										<button class='jobpage'>1</button>
+										<button class='jobpage'>2</button>
+										<button class='jobpage'>3</button>
+										<button class='jobpage'>4</button>
+									</div>
+								</div>
+								<div class='jobtitle col-12'>
+									<div class='jobfirstchild col-3'>ขั้นอาชีพ</div>
+									<div class='col-4'>กลุ่มอาชีพ</div>
+									<div class='col-5'>อาชีพ</div>
+								</div>
+								<div class='joblistbox col-12'>
+									<div class='jobchild joblist'>
+										<div class='jobfirstchild col-3'>1</div>
+										<div class='col-4'>อุสาหกรรม</div>
+										<div class='col-5'>กรรมกร</div>
+									</div>
+									<div class='jobchild joblist'>
+										<div class='jobfirstchild col-3'>2</div>
+										<div class='col-4'>ตำรวจ</div>
+										<div class='col-5'>กองกำกับการตำรวจม้า</div>
+									</div>
+									<div class='jobchild joblist'>
+										<div class='jobfirstchild col-3'>3</div>
+										<div class='col-4'>ตำรวจ</div>
+										<div class='col-5'>กองกำลังป้องกันปราบปรามจราจล</div>
+									</div>
+									<div class='jobchild joblist'>
+										<div class='jobfirstchild col-3'>4</div>
+										<div class='col-4'>เจ้าหน้าที่รักษากฎหมาย</div>
+										<div class='col-5'>กำนัน, ผู้ใหญ่บ้าน</div>
+									</div>
+									<div class='jobchild joblist'>
+										<div class='jobfirstchild col-3'>1</div>
+										<div class='col-4'>ขับรถ</div>
+										<div class='col-5'>ขับขี่มอเตอร์ไซค์รับจ้าง</div>
+									</div>
+									<div class='jobchild joblist'>
+										<div class='jobfirstchild col-3'>2</div>
+										<div class='col-4'>ตัวแทน</div>
+										<div class='col-5'>ขายประกัน</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				<div id="b" class="city"></div>
+				<div id="c" class="city"></div>
+			</div>
+			
+			<div class="footer">
+				<div class="footerLeft">2016 Tokiomarine Insurance Group. All rigths reserved.</div>
+				<div class="footerCenter">
+				    <img src="img/Tokio_Marine_logo.png" class="footerlogo"/>
+				</div>
+			    <div class="footerRight">
+				    <i class="fa fa-facebook-square sociallink"></i>
+			        <i class="fa fa-twitter sociallink" ></i>
+			        <i class="fa fa-google-plus sociallink" ></i>
+		        </div>
+			</div>
+		</div>
+		
+	</body>
+	<script type="text/javascript">
+			
+		var headerHome = document.getElementById('headerHome');
+		var headerEQUOT = document.getElementById('headerEQUOT');
+		var headerEAPP = document.getElementById('headerEAPP');
+		var headerLAN = document.getElementById('headerLAN');
+		headerEQUOT.classList.add("headerActive");
+		headerHome.onclick = function(){
+		    headerHome.classList.add("headerActive");
+		    headerEQUOT.classList.remove("headerActive");
+		    headerEAPP.classList.remove("headerActive");
+		}    
+		headerEQUOT.onclick = function(){
+		    headerHome.classList.remove("headerActive");
+		    headerEQUOT.classList.add("headerActive");
+		    headerEAPP.classList.remove("headerActive");
+		}    
+		headerEAPP.onclick = function(){
+		    headerHome.classList.remove("headerActive");
+		    headerEQUOT.classList.remove("headerActive");
+		    headerEAPP.classList.add("headerActive");
+		}
+	</script>
+</html>
