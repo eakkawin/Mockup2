@@ -651,7 +651,7 @@ input[type='text']{border-radius: 2px;border: 1px solid #CCCCCC;outline: none;}
 input[type='text'].disable{width: 70%;background-color: #ccc;color: black;text-align: right;}
 input[type='text'].basic{width: 90%;background-color: white;}
 input[type=radio] {display: none;}
-input[type=radio] + label::before {margin: 0 0.5em;content: '';display: inline-block;border: 1px solid #000;border-radius: 50%;}
+input[type=radio] + label::before {margin: 0 0.5em;content: '\2713';display: inline-block;border: 1px solid #ccc;border-radius: 50%;color: white;}
 input[type=radio]:checked + label::before {background-color: #0096A9;}
 .addInsuBlock{margin-top:20px;}
 .checklistInsu{margin-top: 10px;}
@@ -660,6 +660,23 @@ input[type=radio]:checked + label::before {background-color: #0096A9;}
 .selectinsul{margin:9px;color:#cccccc;}
 .addprom{margin-bottom: 5px;}
 .selectaddprom{text-align:center;}
+.fa-file:before{font-size: 35px;}
+.jobline{width: 10%;border-bottom: 1px solid black;padding-bottom: 5px;margin-bottom: 10px}
+.jobsicon{float: left;display: block;padding-left: 7%;margin-right: 10px;}
+.jobhead{font-size: 1.5em;font-weight: 100;float: left;}
+.jobblock{margin-left: 10%;display: inline-block;width: 80%;margin-bottom: 5%;}
+.jobbtn{border-radius: 5px;padding: 5px; background-color: white;border:1px solid #ccc;}
+.jobsearch{color: #AEAEAE;padding: 5px;}
+.jobbtnspan{color: #E3E3E3;font-weight: lighter;font-size: 0.9em;}
+.jobbox{border-radius: 1px;background-color: white;border:1px solid #ccc;}
+.jobchild{padding: 10px;}
+.jobheader{color: #AEAEAE;font-weight: 100;font-size: 0.9em;display: inline-block;padding-left:5px;line-height: 23px}
+.jobheader2{padding-left: 60px;font-size: 1em}
+.jobpage{background-color: #E3E3E3;border-radius: 5px;border:none;display: inline-block;;}
+.jobtitle{background-color:#E3E3E3;color: #012B39;padding: 10px;}
+.joblistbox{padding: 5px 10px;}
+.jobfirstchild{text-align: center;line-height: 22px;}
+.joblist{border:1px solid #ccc;margin-bottom: 1px;display: inline-block;width: 100%;}
 .infoHead{float:left;text-align: center;background-color: #B3B3B3;padding: 5px;color: white;border:1px solid #B3B3B3;width: 30%;font-weight: 100;display: inline-block;margin-left: 0;}
 .info{float:left;background-color: white;padding:5px;border:1px solid #B3B3B3;color:#0096A9;width: 70%;display: inline-block;text-align: left;}
 .infoBox{width: 49%;display: inline-block;}
